@@ -1,0 +1,4 @@
+C:\Users\redba\Desktop\Desktop Folder\C# Tools\Hierarchanizer\bin\Release\linux\Hierarchanizer.pdb
+C:\Users\redba\Desktop\Desktop Folder\C# Tools\Hierarchanizer\bin\Release\linux\libHarfBuzzSharp.so
+C:\Users\redba\Desktop\Desktop Folder\C# Tools\Hierarchanizer\bin\Release\linux\libSkiaSharp.so
+C:\Users\redba\Desktop\Desktop Folder\C# Tools\Hierarchanizer\bin\Release\linux\Hierarchanizer

@@ -61,8 +61,7 @@
               "ToolTip": "C:\\Users\\redba\\Desktop\\Desktop Folder\\C# Tools\\Hierarchanizer\\Views\\MainWindow.axaml",
               "RelativeToolTip": "Views\\MainWindow.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-17T14:13:18.292Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T14:13:18.292Z"
             },
             {
               "$type": "Document",
@@ -72,7 +71,7 @@
               "RelativeDocumentMoniker": "ViewModels\\MainWindowViewModel.cs",
               "ToolTip": "C:\\Users\\redba\\Desktop\\Desktop Folder\\C# Tools\\Hierarchanizer\\ViewModels\\MainWindowViewModel.cs",
               "RelativeToolTip": "ViewModels\\MainWindowViewModel.cs",
-              "ViewState": "AgIAAFUBAAAAAAAAAADwv2cBAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAFIBAAAAAAAAAADwv2cBAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-17T14:13:15.858Z",
               "EditorCaption": ""

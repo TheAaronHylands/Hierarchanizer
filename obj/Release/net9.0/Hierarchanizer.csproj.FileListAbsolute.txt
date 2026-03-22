@@ -69,3 +69,4 @@ C:\Users\redba\Desktop\Desktop Folder\C# Tools\Hierarchanizer\obj\Release\net9.0
 C:\Users\redba\Desktop\Desktop Folder\C# Tools\Hierarchanizer\obj\Release\net9.0\Hierarchanizer.pdb
 C:\Users\redba\Desktop\Desktop Folder\C# Tools\Hierarchanizer\obj\Release\net9.0\Hierarchanizer.genruntimeconfig.cache
 C:\Users\redba\Desktop\Desktop Folder\C# Tools\Hierarchanizer\obj\Release\net9.0\ref\Hierarchanizer.dll
+C:\Users\redba\Desktop\Desktop Folder\C# Tools\Hierarchanizer\obj\Release\net9.0\Hierarchanizer.sourcelink.json
