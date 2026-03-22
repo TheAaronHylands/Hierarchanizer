@@ -1,0 +1,105 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:Hierarchanizer.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:models="using:Hierarchanizer.Models"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Hierarchanizer.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="Hierarchanizer">
+
+    <Design.DataContext>
+        <!-- This only sets the DataContext for the previewer in an IDE,
+             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+
+    <Window.KeyBindings>
+        <KeyBinding Gesture="Escape" Command="{Binding DeselectNodeCommand}"/>
+    </Window.KeyBindings>
+
+    <Grid RowDefinitions="Auto, *" Background="#151515">
+        
+        <Border Grid.Row="0" Background="#333333" Padding="10" BorderBrush="#444444" BorderThickness="0,0,0,4">
+            <StackPanel Orientation="Horizontal" Spacing="10">
+                <Button Command="{Binding LoadJsonCommand}" Background="#f0f0f0" Foreground="#222222">Load Json</Button>
+                <Button Command="{Binding SaveJsonCommand}" Background="#f0f0f0" Foreground="#222222">Save Json</Button>
+                <Button Command="{Binding SaveAsJsonCommand}" Background="#f0f0f0" Foreground="#222222">Save As Json</Button>
+                <Separator Width="2" Height="40" Background="DarkGray" Margin="5,0"/>
+                <Button Command="{Binding AddNodeCommand}" Background="#f0f0f0" Foreground="#222222">Add Node</Button>
+                <Button Command="{Binding DeleteNodeCommand}" Background="#f0f0f0" Foreground="#222222">Delete Node</Button>
+                <Separator Width="2" Height="40" Background="DarkGray" Margin="5,0"/>
+                <Button Command="{Binding MoveNodeUpCommand}" Background="#f0f0f0" Foreground="#222222">Move Node Up</Button>
+                <Button Command="{Binding MoveNodeDownCommand}" Background="#f0f0f0" Foreground="#222222">Move Node Down</Button>
+            </StackPanel>
+        </Border>
+
+        <Grid Grid.Row="1" ColumnDefinitions="3*, 5, 6*">
+            
+            <TreeView Grid.Column="0" 
+                      ItemsSource="{Binding Titles}" 
+                      SelectedItem="{Binding SelectedNode}"
+                      Margin="10">
+                
+                <TreeView.DataTemplates>
+                    
+                    <TreeDataTemplate DataType="{x:Type models:TitleNode}" ItemsSource="{Binding Groups}">
+                        <TextBlock Text="{Binding Name}" FontWeight="Bold" FontSize="16"/>
+                    </TreeDataTemplate>
+
+                    <TreeDataTemplate DataType="{x:Type models:GroupNode}" ItemsSource="{Binding Tasks}">
+                        <TextBlock Text="{Binding Name}" FontWeight="SemiBold"/>
+                    </TreeDataTemplate>
+
+                    <TreeDataTemplate DataType="{x:Type models:TaskNode}" ItemsSource="{Binding SubTasks}">
+                        <StackPanel Orientation="Horizontal" Spacing="10">
+                            <TextBlock Text="{Binding Name}" />
+                            <TextBlock Text="{Binding Details}" FontStyle="Italic" Foreground="Gray"/>
+                        </StackPanel>
+                    </TreeDataTemplate>
+
+                    <DataTemplate DataType="{x:Type models:SubTaskNode}">
+                        <StackPanel Orientation="Vertical" Spacing="6" MaxWidth="{Binding $parent[TreeView].Bounds.Width}">
+                            <TextBlock Text="{Binding Name}" FontWeight="Bold"/>
+                            <TextBlock Text="{Binding Details}" Foreground="#e0e0e0" TextWrapping="Wrap" Margin="0,0,90,0"/>
+                            <Separator Width="200" Height="1" Background="DarkGray"/>
+                        </StackPanel>
+
+                    </DataTemplate>
+
+                </TreeView.DataTemplates>
+                
+            </TreeView>
+
+            <GridSplitter Grid.Column="1" Background="#333333" ResizeDirection="Columns"/>
+
+            <ScrollViewer Grid.Column="2" Foreground="#f0f0f0">
+                <StackPanel Margin="15" Spacing="15">
+                    <TextBlock Text="Node Editor" FontSize="20" FontWeight="Bold"/>
+                    
+                    <TextBlock Text="Name:" FontWeight="SemiBold"/>
+                    <TextBox Text="{Binding SelectedNodeName, Mode=TwoWay}" 
+                             Watermark="Enter name..." 
+                             IsEnabled="{Binding IsNodeSelected}"
+                             Foreground="#e0e0e0"
+                             Background="#333333"/>
+
+                    <TextBlock Text="Details (Tasks/Subtasks only):" FontWeight="SemiBold"/>
+                    <TextBox Text="{Binding SelectedNodeDetails, Mode=TwoWay}" 
+                             AcceptsReturn="True" 
+                             Height="200" 
+                             TextWrapping="Wrap"
+                             Watermark="Enter details or description..."
+                             IsEnabled="{Binding IsNodeSelected}"
+                             Foreground="#e0e0e0"
+                             Background="#333333"/>
+
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+
+
+</Window>

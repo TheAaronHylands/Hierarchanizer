@@ -1,0 +1,5 @@
+C:\Users\redba\Desktop\Desktop Folder\C# Tools\Hierarchanizer\bin\Release\net9.0\publish\win-x86\Hierarchanizer.pdb
+C:\Users\redba\Desktop\Desktop Folder\C# Tools\Hierarchanizer\bin\Release\net9.0\publish\win-x86\av_libglesv2.dll
+C:\Users\redba\Desktop\Desktop Folder\C# Tools\Hierarchanizer\bin\Release\net9.0\publish\win-x86\libHarfBuzzSharp.dll
+C:\Users\redba\Desktop\Desktop Folder\C# Tools\Hierarchanizer\bin\Release\net9.0\publish\win-x86\libSkiaSharp.dll
+C:\Users\redba\Desktop\Desktop Folder\C# Tools\Hierarchanizer\bin\Release\net9.0\publish\win-x86\Hierarchanizer.exe

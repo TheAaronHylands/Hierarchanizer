@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\redba\\Desktop\\Desktop Folder\\C# Tools\\Hierarchanizer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6224125E-4AA1-4FB8-A88D-3D67245DF858}|Hierarchanizer.csproj|c:\\users\\redba\\desktop\\desktop folder\\c# tools\\hierarchanizer\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6224125E-4AA1-4FB8-A88D-3D67245DF858}|Hierarchanizer.csproj|solutionrelative:viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6224125E-4AA1-4FB8-A88D-3D67245DF858}|Hierarchanizer.csproj|c:\\users\\redba\\desktop\\desktop folder\\c# tools\\hierarchanizer\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{6224125E-4AA1-4FB8-A88D-3D67245DF858}|Hierarchanizer.csproj|solutionrelative:views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6224125E-4AA1-4FB8-A88D-3D67245DF858}|Hierarchanizer.csproj|c:\\users\\redba\\desktop\\desktop folder\\c# tools\\hierarchanizer\\models\\nodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6224125E-4AA1-4FB8-A88D-3D67245DF858}|Hierarchanizer.csproj|solutionrelative:models\\nodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6224125E-4AA1-4FB8-A88D-3D67245DF858}|Hierarchanizer.csproj|c:\\users\\redba\\desktop\\desktop folder\\c# tools\\hierarchanizer\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6224125E-4AA1-4FB8-A88D-3D67245DF858}|Hierarchanizer.csproj|solutionrelative:viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Nodes.cs",
+              "DocumentMoniker": "C:\\Users\\redba\\Desktop\\Desktop Folder\\C# Tools\\Hierarchanizer\\Models\\Nodes.cs",
+              "RelativeDocumentMoniker": "Models\\Nodes.cs",
+              "ToolTip": "C:\\Users\\redba\\Desktop\\Desktop Folder\\C# Tools\\Hierarchanizer\\Models\\Nodes.cs",
+              "RelativeToolTip": "Models\\Nodes.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwB0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T14:42:56.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "C:\\Users\\redba\\Desktop\\Desktop Folder\\C# Tools\\Hierarchanizer\\ViewModels\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ViewModelBase.cs",
+              "ToolTip": "C:\\Users\\redba\\Desktop\\Desktop Folder\\C# Tools\\Hierarchanizer\\ViewModels\\ViewModelBase.cs",
+              "RelativeToolTip": "ViewModels\\ViewModelBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T14:27:13.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\redba\\Desktop\\Desktop Folder\\C# Tools\\Hierarchanizer\\Views\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "Views\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\redba\\Desktop\\Desktop Folder\\C# Tools\\Hierarchanizer\\Views\\MainWindow.axaml",
+              "RelativeToolTip": "Views\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-17T14:13:18.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\redba\\Desktop\\Desktop Folder\\C# Tools\\Hierarchanizer\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "C:\\Users\\redba\\Desktop\\Desktop Folder\\C# Tools\\Hierarchanizer\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MainWindowViewModel.cs",
+              "ViewState": "AgIAAFUBAAAAAAAAAADwv2cBAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T14:13:15.858Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
