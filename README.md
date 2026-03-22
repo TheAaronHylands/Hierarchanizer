@@ -1,0 +1,1 @@
+This project is open source and free for anyone to use modify and distribute as they please.
